@@ -1,0 +1,11 @@
+<h1 class="text-center">REGISTRAR PERSONAS</h1>
+<hr>
+<div class="row">
+  <div class="col">
+<register-list [characterList]="characters" (onDelete)="onDeleteCharacter($event)"></register-list>
+
+  </div>
+  <div class="col">
+      <register-add-character (onNewCharacter)="onNewCharacter($event)"></register-add-character>
+  </div>
+</div>
