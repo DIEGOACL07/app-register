@@ -1,13 +1,13 @@
-<h4>Agregar Persona</h4>
+<h4>Agregar Personas:</h4>
 <form class="row" (ngSubmit)="emitCharacter()">
   <input
   type="text"
   [(ngModel)]="character.name"
   name="name" class="form-control mb-2"
-  placeholder="Nombre y Apellidos">
+  placeholder="Nombres y Apellidos">
 
   <input
-  type="number"
+  type="number" 
   [(ngModel)]="character.age"
   name="age" class="form-control mb-2"
   placeholder="Edad">
